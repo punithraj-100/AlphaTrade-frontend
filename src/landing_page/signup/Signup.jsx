@@ -42,7 +42,7 @@ const Signup = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-          navigate("/");
+          window.location.href = "http://localhost:3001";
         }, 1000);
       } else {
         handleError(message);
