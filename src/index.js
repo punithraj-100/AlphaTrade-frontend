@@ -2,9 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
+import { CookiesProvider } from "react-cookie";
 
 import HomePage from "./landing_page/home/Homepage";
-import Signup from "./landing_page/signup/Signup";
+import SignupPage from "./landing_page/signup/signupPage";
 import AboutPage from "./landing_page/about/aboutpage";
 import ProductPage from "./landing_page/products/productsPage";
 import PricingPage from "./landing_page/pricing/pricingPage";
@@ -17,10 +18,11 @@ import Footer from "./landing_page/Footer";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
+   <CookiesProvider>
     <Navbar />
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/signup" element={<Signup />} />
+      <Route path="/signup" element={<SignupPage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/product" element={<ProductPage />} />
       <Route path="/pricing" element={<PricingPage />} />
@@ -28,6 +30,7 @@ root.render(
       <Route path="*" element={<NotFound />} />
     </Routes>
     <Footer />
+    </CookiesProvider>
   </BrowserRouter>
 );
 
