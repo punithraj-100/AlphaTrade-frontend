@@ -19,7 +19,7 @@ const Home = () => {
           // --- FIX: Point this to your BACKEND server's address ---
           // Make sure the port (e.g., 4000) is correct.
           const { data } = await axios.post(
-            "http://localhost:3002/", // CORRECTED URL
+            "https://alphatrade-backend-1.onrender.com/", // CORRECTED URL
             {},
             { withCredentials: true }
           );

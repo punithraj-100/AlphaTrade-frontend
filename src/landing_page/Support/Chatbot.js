@@ -57,7 +57,7 @@ const Chatbot = () => {
 
     try {
       // This URL points to YOUR backend, not Google's API.
-      const apiUrl = 'http://localhost:3002/ask-chatbot';
+      const apiUrl = 'https://alphatrade-backend-1.onrender.com/ask-chatbot';
 
       const geminiPayload = {
         contents: [
