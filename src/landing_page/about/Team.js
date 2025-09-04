@@ -14,6 +14,7 @@ function Team() {
         <div className="col-6 p-3 text-center">
           <img
             src="media/images/ceo.jpg"
+            alt="Punith Raj K, Founder of AlphaTrade"
             style={{ borderRadius: "100%", width: "50%" }}
           />
           <h4 className="mt-5">Punith Raj K</h4>
@@ -21,17 +22,16 @@ function Team() {
         </div>
         <div className="col-6 p-3">
           <p>
-           Punith bootstrapped and founded AlphaTrade in 2025 to bridge the gap between technology and trading, after experiencing the challenges faced by new traders in the market. Today, AlphaTrade is on a mission to make investing simple, transparent, and accessible for everyone.
-
-
+            Punith bootstrapped and founded AlphaTrade in 2025 to bridge the gap between technology and trading, after experiencing the challenges faced by new traders in the market. Today, AlphaTrade is on a mission to make investing simple, transparent, and accessible for everyone.
           </p>
           <p>
-           He/She is passionate about financial innovation and is actively working towards building tools that empower the next generation of investors.
+            He is passionate about financial innovation and is actively working towards building tools that empower the next generation of investors.
           </p>
           
           <p>
-            Connect on <a href="">Homepage</a> / <a href="">TradingQnA</a> /{" "}
-            <a href="">Twitter</a>
+            
+            Connect on <a href="/">Homepage</a> / <a href="/">TradingQnA</a> /{" "}
+            <a href="https://twitter.com">Twitter</a>
           </p>
         </div>
       </div>
@@ -40,3 +40,4 @@ function Team() {
 }
 
 export default Team;
+

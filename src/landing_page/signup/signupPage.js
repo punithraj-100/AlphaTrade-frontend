@@ -1,24 +1,3 @@
-// import React from "react";
-// import Home from "./Home";
-// import Login from "./Login";
-// import Signup from "./Signup";
-
-
-// function SignupPage() {
-//   return (
-//     <>
-     
-//       <Home />
-//       <Login/>
-//       <Signup />
-      
-      
-//     </>
-//   );
-// }
-
-// export default SignupPage;
-
 import React, { useState } from "react";
 import Login from "./Login";
 import Signup from "./Signup";

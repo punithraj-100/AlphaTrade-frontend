@@ -31,9 +31,7 @@ function Hero() {
             In addition, we run a number of open online learning and community initiatives to help students, beginners, and aspiring traders understand the markets better.
           </p>
           <p>
-            <a href="" style={{ textDecoration: "none" }}>
-              Rainmatter
-            </a>
+            
             AlphaLabs, our small incubation effort, explores ideas around trading tools, investment education, and financial literacy with the goal of making markets more accessible to everyone.
           </p>
           <p>
