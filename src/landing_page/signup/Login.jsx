@@ -43,7 +43,7 @@ const Login = () => {
         handleSuccess(message);
         setTimeout(() => {
           
-          window.location.href = "http://localhost:3001"; 
+          window.location.href = "https://alpha-trade-dash-board.vercel.app"; 
         }, 1000);
       } else {
         handleError(message);
